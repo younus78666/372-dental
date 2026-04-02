@@ -825,6 +825,12 @@ footer {
 .footer-bottom a { color: rgba(255,255,255,.35); text-decoration: none; }
 .footer-bottom a:hover { color: var(--purple-muted); }
 
+/* ─── CONTEXTUAL LINKS ─── */
+.ctx-link { color: var(--purple); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: rgba(107,63,160,.3); transition: text-decoration-color .2s; }
+.ctx-link:hover { text-decoration-color: var(--purple); }
+.reviews .ctx-link { color: var(--purple-muted); text-decoration-color: rgba(155,127,199,.3); }
+.reviews .ctx-link:hover { text-decoration-color: var(--purple-muted); }
+
 /* ─── ANIMATIONS ─── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
@@ -923,7 +929,7 @@ footer {
     <div class="hero-content">
       <div class="hero-badge"><span class="dot"></span> We're Accepting New Patients</div>
       <h1>Expert Dental Care for the <em>Whole Family</em> in Bolton</h1>
-      <p class="hero-desc">We are a warm, professional dental practice in Bolton that has been looking after local families for over a century. Whether you need a routine check-up, emergency treatment, or cosmetic dentistry, our experienced team is here to help.</p>
+      <p class="hero-desc">We are a warm, professional <a href="/about" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">dental practice in Bolton</a> that has been looking after local families for over a century. Whether you need a <a href="/dental-check-ups" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">routine check-up</a>, <a href="/emergency-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">emergency treatment</a>, or <a href="/cosmetic-dentistry-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">cosmetic dentistry</a>, our experienced team is here to help.</p>
       <div class="hero-btns">
         <a href="/new-patients" class="btn btn-primary">
           Book an Appointment
@@ -1004,8 +1010,10 @@ footer {
       <div class="about-content fade-in">
         <div class="section-tag">About Our Practice</div>
         <h2>We're The Dental Experts You Can Trust</h2>
-        <p>Established since the 1920s, 372 Dental is a well-regarded dental practice situated on Bury Road in Bolton. We pride ourselves on providing a professional and caring service at all times, whilst maintaining the highest quality of work.</p>
+        <p>Established since the 1920s, 372 Dental is a well-regarded dental practice situated on <a href="/contact" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Bury Road in Bolton</a>. We pride ourselves on providing a professional and caring service at all times, whilst maintaining the highest quality of work.</p>
         <p>Our practice comprises three newly renovated surgeries, fully equipped with the latest technology used in modern dentistry. All our records are fully computerised, and our surgeries are situated on the ground floor with easy access for wheelchair users.</p>
+        <p>Under the ownership of Stephen Bloor and Ross Mathieson, we have created a peaceful environment that is fresh, modern and welcoming. Our practice ethos is to promote dental health at all times, and we recommend regular check-ups at intervals agreed between you and your <a href="/our-team" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">dentist in Bolton</a>.</p>
+        <p>From your first assessment, we aim to ensure that you receive the highest levels of care available in preventive and precision dentistry. We will take the time to listen to your concerns and discuss all available treatment options with you.</p>
         <div class="about-checklist">
           <div class="check-item"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div> NHS &amp; Private Treatments Available</div>
           <div class="check-item"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div> Children Registered Under NHS Free of Charge</div>
@@ -1022,9 +1030,9 @@ footer {
 <section class="section services" id="services">
   <div class="container">
     <div class="section-header fade-in">
-      <div class="section-tag">Our Services</div>
-      <h2 class="section-title">Comprehensive Dental Care</h2>
-      <p class="section-subtitle">From routine check-ups to specialist cosmetic treatments, we deliver exceptional care tailored to every patient.</p>
+      <div class="section-tag">What We Offer</div>
+      <h2 class="section-title">What We Offer</h2>
+      <p class="section-subtitle">At 372 Dental, we provide a full range of dental services for patients of all ages. Our team is experienced in everything from general dentistry to specialist cosmetic treatments.</p>
     </div>
     <div class="services-grid">
       <a href="/dental-check-ups" class="svc-card fade-in">
@@ -1036,13 +1044,13 @@ footer {
       <a href="/emergency-dentist-bolton" class="svc-card fade-in">
         <div class="svc-icon" style="background:rgba(232,71,126,.08)"><i class="fi fi-rr-triangle-warning" style="color:var(--accent);"></i></div>
         <h3>Emergency Dentist</h3>
-        <p>Experiencing severe tooth pain, a broken tooth, or a dental abscess? We offer same-day emergency dental appointments so you can be seen as quickly as possible.</p>
+        <p>Experiencing severe tooth pain, a broken tooth, or a dental abscess? We offer same-day <a href="/emergency-dentist-bolton" style="color:var(--accent);text-decoration:underline;text-underline-offset:2px">emergency dental appointments</a> so you can be seen as quickly as possible.</p>
         <span class="svc-link">Get Help Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
       <a href="/hygienist-gum-disease" class="svc-card fade-in">
         <div class="svc-icon" style="background:rgba(200,180,224,.15)"><i class="fi fi-rr-sparkles"></i></div>
         <h3>Hygienist &amp; Gum Care</h3>
-        <p>Professional deep cleaning and gum disease treatment to help prevent tooth loss and maintain healthy gums for the long term.</p>
+        <p>Professional deep cleaning and <a href="/hygienist-gum-disease" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">gum disease treatment</a> to help prevent tooth loss and maintain healthy gums for the long term.</p>
         <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
       <a href="/childrens-dentist-bolton" class="svc-card fade-in">
@@ -1054,7 +1062,7 @@ footer {
       <a href="/cosmetic-dentistry-bolton" class="svc-card fade-in">
         <div class="svc-icon" style="background:rgba(26,26,46,.05)"><i class="fi fi-rr-star"></i></div>
         <h3>Cosmetic Dentistry</h3>
-        <p>We use the latest cosmetic dental procedures to help you achieve the smile you have always wanted. From teeth whitening to veneers and composite bonding.</p>
+        <p>We use the latest cosmetic dental procedures to help you achieve the smile you have always wanted. From <a href="/teeth-whitening-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">teeth whitening</a> to <a href="/veneers-composite-bonding" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">veneers and composite bonding</a>, we offer treatments tailored to your needs.</p>
         <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
       <a href="/teeth-whitening-bolton" class="svc-card fade-in">
@@ -1066,15 +1074,70 @@ footer {
       <a href="/nhs-dentist-bolton" class="svc-card fade-in">
         <div class="svc-icon" style="background:rgba(0,94,184,.08)"><i class="fi fi-rr-shield-check" style="color:#005EB8;"></i></div>
         <h3>NHS Dentist</h3>
-        <p>Children and patients under 18 years of age are treated under the NHS Registration Scheme free of charge. Contact our reception team for details.</p>
+        <p>Children and patients under 18 years of age are treated under the <a href="/nhs-dentist-bolton" style="color:#005EB8;text-decoration:underline;text-underline-offset:2px">NHS Registration Scheme</a> free of charge. Contact our reception team for details on NHS availability.</p>
         <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
       <a href="/nervous-patients" class="svc-card fade-in">
         <div class="svc-icon" style="background:rgba(34,197,94,.08)"><i class="fi fi-rr-heart" style="color:#22C55E;"></i></div>
         <h3>Nervous Patients</h3>
-        <p>We understand that visiting the dentist can feel daunting. Our team takes extra care to ensure nervous and anxious patients feel comfortable and at ease.</p>
+        <p>We understand that visiting the dentist can feel daunting. Our team takes extra care to ensure <a href="/nervous-patients" style="color:#22C55E;text-decoration:underline;text-underline-offset:2px">nervous and anxious patients</a> feel comfortable and at ease throughout their visit.</p>
         <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
       </a>
+    </div>
+  </div>
+</section>
+
+<!-- NEW PATIENTS -->
+<section class="section" style="background:var(--white);">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-content fade-in" style="order:1;">
+        <div class="section-tag">New Patients</div>
+        <h2>New Patients Welcome</h2>
+        <p>First-time adult patients will fall under our <a href="/private-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Private Care Plan</a> (pay as you go) or the <a href="/denplan" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Denplan Scheme</a> (monthly budget payment). Denplan allows you to spread the cost of your routine dental care evenly throughout the year, so there are no surprise bills.</p>
+        <p>Children and patients under 18 years of age will fall under the <a href="/nhs-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">NHS Registration Scheme</a>, which is free of charge. We are proud to be an <a href="/nhs-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">NHS dentist in Bolton</a> that continues to welcome young patients.</p>
+        <p>To register as a new patient or to find out more about our options, please contact our reception team on <strong><a href="tel:01204522581" style="color:var(--purple);">01204 522 581</a></strong> or visit our <a href="/new-patients" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">new patients page</a>.</p>
+      </div>
+      <div class="fade-in" style="order:2;background:linear-gradient(135deg,var(--purple-faint),var(--purple-pale));border-radius:20px;padding:48px 36px;display:flex;flex-direction:column;gap:20px;">
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div class="why-icon" style="margin:0;"><i class="fi fi-rr-user-add"></i></div>
+          <div><div style="font-weight:700;color:var(--navy);font-size:.95rem;">Private Pay-As-You-Go</div><div style="font-size:.82rem;color:var(--slate);">Flexible payment for each visit</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div class="why-icon" style="margin:0;"><i class="fi fi-rr-shield-check"></i></div>
+          <div><div style="font-weight:700;color:var(--navy);font-size:.95rem;">Denplan Monthly Plan</div><div style="font-size:.82rem;color:var(--slate);">Budget with confidence — no surprise bills</div></div>
+        </div>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div class="why-icon" style="margin:0;"><i class="fi fi-rr-heart"></i></div>
+          <div><div style="font-weight:700;color:var(--navy);font-size:.95rem;">NHS for Under 18s</div><div style="font-size:.82rem;color:var(--slate);">Free registration for children</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMERGENCY DENTAL CARE -->
+<section class="section" style="background:var(--cream);">
+  <div class="container">
+    <div class="about-grid">
+      <div class="fade-in" style="background:linear-gradient(140deg,var(--purple),var(--purple-deeper));border-radius:20px;padding:48px 40px;color:var(--white);position:relative;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(255,255,255,.08),transparent 40%);"></div>
+        <div style="position:relative;z-index:1;">
+          <div style="font-size:3rem;margin-bottom:16px;"><i class="fi fi-rr-triangle-warning"></i></div>
+          <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:12px;">Dental Emergency?</h3>
+          <p style="color:rgba(255,255,255,.8);font-size:.95rem;line-height:1.7;margin-bottom:20px;">We treat all common dental emergencies including severe toothache, broken or chipped teeth, lost fillings or crowns, dental abscesses, and knocked-out teeth.</p>
+          <a href="tel:01204522581" class="btn btn-white" style="display:inline-flex;">
+            Call 01204 522 581
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="about-content fade-in">
+        <div class="section-tag">Emergency Care</div>
+        <h2>Need Emergency Dental Care?</h2>
+        <p>If you need emergency dental assistance and our dentists are busy at that moment, please do not worry. Call us immediately on <strong><a href="tel:01204522581" style="color:var(--purple);">01204 522 581</a></strong> and we will ensure you are given an appointment on a priority basis.</p>
+        <p>As a registered private or <a href="/denplan" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Denplan patient</a>, you can also access weekend emergency cover between 9am and 5pm on Saturdays. For full details on what to do in a <a href="/emergency-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">dental emergency in Bolton</a>, please visit our dedicated emergency page.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -1096,12 +1159,12 @@ footer {
       <div class="why-card fade-in">
         <div class="why-icon"><i class="fi fi-rr-shield-check"></i></div>
         <h3>NHS, Private &amp; Denplan Options</h3>
-        <p>Whatever your budget, we have a dental care plan to suit you. NHS care for children, affordable Denplan monthly plans, and private treatment with transparent pricing.</p>
+        <p>Whatever your budget, we have a dental care plan to suit you. <a href="/nhs-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">NHS care for children</a>, affordable <a href="/denplan" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Denplan monthly plans</a>, and <a href="/private-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">private treatment</a> with transparent <a href="/dental-fees" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">pricing</a>.</p>
       </div>
       <div class="why-card fade-in">
         <div class="why-icon"><i class="fi fi-rr-bolt"></i></div>
         <h3>Same-Day Emergency Appointments</h3>
-        <p>Dental emergencies do not wait, and neither do we. If you are in pain, we will do everything we can to see you on the same day.</p>
+        <p>Dental emergencies do not wait, and neither do we. If you are in pain or have suffered a dental injury, we will do everything we can to see you on the <a href="/emergency-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">same day</a>.</p>
       </div>
       <div class="why-card fade-in">
         <div class="why-icon"><i class="fi fi-rr-users"></i></div>
@@ -1118,7 +1181,7 @@ footer {
     <div class="section-header fade-in">
       <div class="section-tag">Patient Reviews</div>
       <h2 class="section-title">Trusted by Bolton Families</h2>
-      <p class="section-subtitle">See what our patients have to say about their experience at 372 Dental.</p>
+      <p class="section-subtitle">Our patients are at the heart of everything we do at 372 Dental. We are proud to have received consistently excellent <a href="/reviews" style="color:var(--purple-muted);text-decoration:underline;text-underline-offset:2px">reviews</a> across Google and Yell.</p>
     </div>
 
     <div class="reviews-summary fade-in">
@@ -1197,8 +1260,8 @@ footer {
     </div>
 
     <div class="reviews-cta fade-in">
-      <a href="#" class="btn btn-white">Read All Reviews</a>
-      <a href="#" class="btn btn-ghost">Leave a Review</a>
+      <a href="/reviews" class="btn btn-white">Read All Reviews</a>
+      <a href="/reviews" class="btn btn-ghost">Leave a Review</a>
     </div>
   </div>
 </section>
@@ -1256,23 +1319,23 @@ footer {
       <div class="faq-list fade-in">
         <div class="faq-item active">
           <button class="faq-q">Are you accepting new NHS patients? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-          <div class="faq-a"><p>Yes. Children under 18 can register under the NHS Registration Scheme free of charge. Adults are welcome to register under our Denplan monthly payment plan or as private pay-as-you-go patients. Please contact reception on 01204 522 581 for current availability.</p></div>
+          <div class="faq-a"><p>Yes. Children under 18 can register under the NHS Registration Scheme free of charge. Adults are welcome to register under our <a href="/denplan" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Denplan monthly payment plan</a> or as private pay-as-you-go patients. Please contact reception on <a href="tel:01204522581" style="color:var(--purple);">01204 522 581</a> for current availability.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-q">Do you offer same-day emergency appointments? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-          <div class="faq-a"><p>Yes. If you are experiencing dental pain, a broken tooth, or any other dental emergency, please call us immediately. We will do our best to see you on the same day.</p></div>
+          <div class="faq-a"><p>Yes. If you are experiencing dental pain, a broken tooth, or any other dental emergency, please call us immediately. We will do our best to see you on the <a href="/emergency-dentist-bolton" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">same day</a>.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-q">What is Denplan and how does it work? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-          <div class="faq-a"><p>Denplan is a monthly payment plan that covers your routine dental care, including check-ups and hygienist visits. It spreads the cost evenly so there are no unexpected bills. Contact us for a personalised quote based on your oral health.</p></div>
+          <div class="faq-a"><p><a href="/denplan" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Denplan</a> is a monthly payment plan that covers your routine dental care, including check-ups and hygienist visits. It spreads the cost evenly so there are no unexpected bills. Contact us for a personalised quote based on your oral health.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-q">Where is 372 Dental located? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-          <div class="faq-a"><p>We are located at 372 Bury Road, Bolton, BL2 6DD. All our surgeries are on the ground floor with easy access for wheelchair users. There is on-street parking available nearby.</p></div>
+          <div class="faq-a"><p>We are located at 372 Bury Road, Bolton, BL2 6DD. All our surgeries are on the ground floor with easy access for wheelchair users. There is on-street parking available nearby. <a href="/contact" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">Get directions &rarr;</a></p></div>
         </div>
         <div class="faq-item">
           <button class="faq-q">How do I book an appointment? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
-          <div class="faq-a"><p>You can book by calling us on 01204 522 581 during our opening hours, or by visiting our new patients page to request an appointment online.</p></div>
+          <div class="faq-a"><p>You can book by calling us on <a href="tel:01204522581" style="color:var(--purple);">01204 522 581</a> during our opening hours, or by visiting our <a href="/new-patients" style="color:var(--purple);text-decoration:underline;text-underline-offset:2px">new patients page</a> to request an appointment online.</p></div>
         </div>
       </div>
     </div>
@@ -1431,12 +1494,12 @@ footer {
       </div>
       <div class="footer-col">
         <h4>Quick Links</h4>
-        <a href="#about">About Us</a>
+        <a href="/about">About Us</a>
         <a href="#services">Services</a>
-        <a href="#team">Our Team</a>
-        <a href="#reviews">Reviews</a>
+        <a href="/our-team">Our Team</a>
+        <a href="/reviews">Reviews</a>
         <a href="#faq">FAQ</a>
-        <a href="#booking">Book Now</a>
+        <a href="/new-patients">Book Now</a>
       </div>
       <div class="footer-col">
         <h4>Services</h4>
