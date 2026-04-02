@@ -3,584 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dentist in Bolton | NHS & Private | 372 Dental</title>
+<title>Dentist in Bolton | NHS &amp; Private | 372 Dental</title>
 <meta name="description" content="Trusted family dentist on Bury Road, Bolton. NHS, private & Denplan. Same-day emergencies. Call 01204 522 581.">
+<link rel="canonical" href="https://372dental.co.uk/">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
 <meta property="og:title" content="372 Dental — Trusted Family Dentist in Bolton">
 <meta property="og:description" content="Family dental practice on Bury Road, Bolton. NHS, private & Denplan. Same-day emergency appointments.">
-<meta property="og:type" content="website">
-<meta property="og:image" content="/og/homepage.jpg">
-<link rel="canonical" href="https://372dental.co.uk/">
+<meta property="og:url" content="https://372dental.co.uk/">
+<meta property="og:site_name" content="372 Dental">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Flaticon Uicons -->
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css">
+<link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css">
 
-:root {
-  --purple: #6B3FA0;
-  --purple-light: #8B5FBF;
-  --purple-dark: #5A2D8C;
-  --purple-pale: #EDE5F5;
-  --purple-faint: #F8F5FC;
-  --navy: #1A1A2E;
-  --text: #333346;
-  --slate: #555568;
-  --white: #FFFFFF;
-  --border: #E8E0F0;
-}
-
-html { scroll-behavior: smooth; }
-
-body {
-  font-family: 'DM Sans', sans-serif;
-  color: var(--text);
-  line-height: 1.6;
-  overflow-x: hidden;
-}
-
-img { max-width: 100%; display: block; }
-a { text-decoration: none; color: inherit; }
-
-/* ── Top Bar ── */
-.top-bar {
-  background: var(--navy);
-  color: rgba(255,255,255,0.85);
-  font-size: 0.85rem;
-  padding: 8px 0;
-}
-.top-bar .wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.top-bar a { color: rgba(255,255,255,0.9); }
-.top-bar a:hover { color: #fff; }
-
-/* ── Navigation ── */
-header {
-  background: var(--white);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-.nav-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 80px;
-}
-.nav-logo { height: 48px; }
-nav { display: flex; gap: 2rem; align-items: center; }
-nav a {
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--text);
-  transition: color 0.2s;
-}
-nav a:hover { color: var(--purple); }
-.nav-cta {
-  background: var(--purple);
-  color: var(--white) !important;
-  padding: 10px 24px;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: background 0.2s;
-}
-.nav-cta:hover { background: var(--purple-dark); }
-
-/* Mobile menu */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  flex-direction: column;
-  gap: 5px;
-}
-.menu-toggle span {
-  display: block;
-  width: 26px;
-  height: 3px;
-  background: var(--navy);
-  border-radius: 3px;
-  transition: 0.3s;
-}
-
-/* ── Hero ── */
-.hero {
-  background: linear-gradient(135deg, var(--purple-faint) 0%, var(--white) 100%);
-  padding: 5rem 2rem;
-}
-.hero .wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
-}
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--purple-pale);
-  color: var(--purple);
-  font-size: 0.85rem;
-  font-weight: 600;
-  padding: 6px 16px;
-  border-radius: 999px;
-  margin-bottom: 1.5rem;
-}
-.hero h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(2.2rem, 4.5vw, 3.4rem);
-  font-weight: 700;
-  color: var(--navy);
-  line-height: 1.15;
-  margin-bottom: 1.2rem;
-  letter-spacing: -0.02em;
-}
-.hero h1 span { color: var(--purple); }
-.hero p {
-  font-size: 1.1rem;
-  color: var(--slate);
-  max-width: 480px;
-  margin-bottom: 2rem;
-  line-height: 1.7;
-}
-.hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
-.btn-primary {
-  background: var(--purple);
-  color: var(--white);
-  padding: 14px 32px;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  transition: background 0.2s, transform 0.2s;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.btn-primary:hover { background: var(--purple-dark); transform: translateY(-1px); }
-.btn-outline {
-  background: transparent;
-  color: var(--purple);
-  padding: 14px 32px;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 1rem;
-  border: 2px solid var(--purple);
-  cursor: pointer;
-  transition: 0.2s;
-}
-.btn-outline:hover { background: var(--purple); color: var(--white); }
-.hero-image {
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(107,63,160,0.15);
-  position: relative;
-}
-.hero-image img {
-  width: 100%;
-  height: 480px;
-  object-fit: cover;
-}
-
-/* ── Section Common ── */
-.section { padding: 5rem 2rem; }
-.section .wrap { max-width: 1200px; margin: 0 auto; }
-.section-label {
-  display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--purple);
-  margin-bottom: 0.75rem;
-}
-.section-title {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-  font-weight: 600;
-  color: var(--navy);
-  margin-bottom: 1rem;
-  letter-spacing: -0.01em;
-}
-.section-sub {
-  font-size: 1.05rem;
-  color: var(--slate);
-  max-width: 560px;
-  line-height: 1.7;
-}
-.bg-faint { background: var(--purple-faint); }
-
-/* ── Services ── */
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.5rem;
-  margin-top: 3rem;
-}
-.service-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 2rem;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.service-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(107,63,160,0.1);
-}
-.service-icon {
-  width: 52px;
-  height: 52px;
-  background: var(--purple-pale);
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  margin-bottom: 1.2rem;
-}
-.service-card h3 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: var(--navy);
-  margin-bottom: 0.5rem;
-}
-.service-card p {
-  font-size: 0.92rem;
-  color: var(--slate);
-  line-height: 1.6;
-}
-
-/* ── About ── */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
-  margin-top: 3rem;
-}
-.about-image {
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 16px 48px rgba(0,0,0,0.08);
-}
-.about-image img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-.about-text h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
-  color: var(--navy);
-  margin-bottom: 1rem;
-}
-.about-text p {
-  color: var(--slate);
-  margin-bottom: 1rem;
-  line-height: 1.7;
-}
-.about-stats {
-  display: flex;
-  gap: 2rem;
-  margin-top: 1.5rem;
-}
-.stat { text-align: center; }
-.stat-num {
-  font-family: 'Playfair Display', serif;
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--purple);
-}
-.stat-label {
-  font-size: 0.82rem;
-  color: var(--slate);
-  margin-top: 2px;
-}
-
-/* ── Team ── */
-.team-image-wrap {
-  margin-top: 3rem;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 16px 48px rgba(0,0,0,0.08);
-  position: relative;
-}
-.team-image-wrap img {
-  width: 100%;
-  height: 420px;
-  object-fit: cover;
-  object-position: top;
-}
-.team-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(transparent, rgba(26,26,46,0.85));
-  padding: 3rem 2.5rem 2rem;
-  color: var(--white);
-}
-.team-overlay h3 {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
-  margin-bottom: 0.4rem;
-}
-.team-overlay p {
-  font-size: 0.95rem;
-  opacity: 0.85;
-}
-
-/* ── Trust Badges ── */
-.trust-section {
-  padding: 3rem 2rem;
-  background: var(--white);
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-}
-.trust-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
-}
-.trust-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-.trust-item img { height: 50px; width: auto; }
-
-/* ── Reviews ── */
-.reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 3rem;
-}
-.review-card {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 2rem;
-}
-.review-stars {
-  color: #F5A623;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  letter-spacing: 2px;
-}
-.review-card p {
-  color: var(--slate);
-  font-size: 0.95rem;
-  line-height: 1.65;
-  margin-bottom: 1rem;
-  font-style: italic;
-}
-.review-author {
-  font-weight: 600;
-  color: var(--navy);
-  font-size: 0.9rem;
-}
-
-/* ── CTA Banner ── */
-.cta-banner {
-  background: linear-gradient(135deg, var(--purple) 0%, var(--purple-dark) 100%);
-  padding: 4rem 2rem;
-  text-align: center;
-  color: var(--white);
-}
-.cta-banner h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-  margin-bottom: 1rem;
-}
-.cta-banner p {
-  font-size: 1.1rem;
-  opacity: 0.9;
-  max-width: 500px;
-  margin: 0 auto 2rem;
-}
-.btn-white {
-  background: var(--white);
-  color: var(--purple);
-  padding: 14px 36px;
-  border-radius: 10px;
-  font-weight: 700;
-  font-size: 1.05rem;
-  border: none;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
-
-/* ── Contact / Map ── */
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  margin-top: 3rem;
-}
-.contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
-.contact-item {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-}
-.contact-icon {
-  width: 46px;
-  height: 46px;
-  min-width: 46px;
-  background: var(--purple-pale);
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  color: var(--purple);
-}
-.contact-item h4 {
-  font-size: 0.95rem;
-  color: var(--navy);
-  margin-bottom: 2px;
-}
-.contact-item p, .contact-item a {
-  font-size: 0.92rem;
-  color: var(--slate);
-  line-height: 1.5;
-}
-.contact-item a:hover { color: var(--purple); }
-.map-frame {
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  height: 100%;
-  min-height: 320px;
-}
-.map-frame iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  min-height: 320px;
-}
-
-/* ── Opening Hours ── */
-.hours-table {
-  width: 100%;
-  margin-top: 1.5rem;
-  border-collapse: collapse;
-}
-.hours-table tr { border-bottom: 1px solid var(--border); }
-.hours-table td {
-  padding: 10px 0;
-  font-size: 0.92rem;
-  color: var(--slate);
-}
-.hours-table td:first-child { font-weight: 600; color: var(--navy); }
-
-/* ── Footer ── */
-footer {
-  background: var(--navy);
-  color: rgba(255,255,255,0.7);
-  padding: 3rem 2rem 1.5rem;
-}
-.footer-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  gap: 3rem;
-}
-footer h4 {
-  color: var(--white);
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-footer p, footer a {
-  font-size: 0.88rem;
-  line-height: 1.7;
-  color: rgba(255,255,255,0.6);
-}
-footer a:hover { color: var(--white); }
-.footer-links { display: flex; flex-direction: column; gap: 0.5rem; }
-.footer-bottom {
-  max-width: 1200px;
-  margin: 2rem auto 0;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255,255,255,0.1);
-  font-size: 0.82rem;
-  text-align: center;
-  color: rgba(255,255,255,0.4);
-}
-
-/* ── Responsive ── */
-@media (max-width: 900px) {
-  .hero .wrap { grid-template-columns: 1fr; gap: 2.5rem; }
-  .hero-image img { height: 340px; }
-  .about-grid { grid-template-columns: 1fr; }
-  .contact-grid { grid-template-columns: 1fr; }
-  .footer-wrap { grid-template-columns: 1fr; gap: 2rem; }
-  .team-image-wrap img { height: 300px; }
-}
-
-@media (max-width: 768px) {
-  nav { display: none; }
-  nav.open {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    right: 0;
-    background: var(--white);
-    padding: 1.5rem 2rem;
-    border-bottom: 1px solid var(--border);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
-    gap: 1rem;
-  }
-  .menu-toggle { display: flex; }
-  .top-bar .wrap { justify-content: center; text-align: center; }
-  .hero { padding: 3rem 1.5rem; }
-  .section { padding: 3.5rem 1.5rem; }
-  .about-stats { gap: 1.5rem; }
-}
-
-@media (max-width: 480px) {
-  .hero-buttons { flex-direction: column; }
-  .btn-primary, .btn-outline { width: 100%; justify-content: center; }
-  .trust-wrap { gap: 1.5rem; }
-  .about-stats { flex-wrap: wrap; }
-}
-</style>
-
-<!-- Schema Markup -->
+<!-- Schema: LocalBusiness (Dentist) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Dentist",
   "name": "372 Dental",
-  "image": "https://372dental.co.uk/images/practice.jpg",
-  "url": "https://372dental.co.uk",
+  "image": "https://372dental.co.uk/hero-image.jpg",
+  "url": "https://372dental.co.uk/",
   "telephone": "+44-1204-522-581",
   "email": "info372dental@aol.co.uk",
   "address": {
@@ -597,73 +43,73 @@ footer a:hover { color: var(--white); }
     "longitude": -2.4082
   },
   "openingHoursSpecification": [
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "08:30", "closes": "19:00"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:30", "closes": "13:00"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "08:30", "closes": "17:30"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "08:30", "closes": "17:30"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:30", "closes": "14:00"},
-    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "12:00"}
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Monday","opens": "08:30","closes": "13:00"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Monday","opens": "14:00","closes": "19:00"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Tuesday","opens": "08:30","closes": "13:00"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Wednesday","opens": "08:30","closes": "13:00"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Wednesday","opens": "14:00","closes": "17:30"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Thursday","opens": "08:30","closes": "13:00"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Thursday","opens": "14:00","closes": "17:30"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Friday","opens": "08:30","closes": "14:00"},
+    {"@type": "OpeningHoursSpecification","dayOfWeek": "Saturday","opens": "09:00","closes": "12:00"}
   ],
-  "priceRange": "£-££",
-  "paymentAccepted": "Cash, Credit Card, Debit Card",
-  "currenciesAccepted": "GBP",
-  "areaServed": {
-    "@type": "City",
-    "name": "Bolton",
-    "containedInPlace": {
-      "@type": "AdministrativeArea",
-      "name": "Greater Manchester"
-    }
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Dental Services",
-    "itemListElement": [
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "General Dentistry"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency Dentistry"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Cosmetic Dentistry"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Children's Dentistry"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Dental Hygienist"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Teeth Whitening"}}
-    ]
-  },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5.0",
     "reviewCount": "50",
-    "bestRating": "5"
-  }
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "priceRange": "$$"
 }
 </script>
+
+<!-- Schema: Organization -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "372 Dental",
-  "url": "https://372dental.co.uk",
-  "logo": "https://372dental.co.uk/images/372-logo.png",
+  "url": "https://372dental.co.uk/",
+  "logo": "https://372dental.co.uk/372-logo.png",
   "foundingDate": "1920",
-  "founders": [
-    {"@type": "Person", "name": "Stephen Bloor", "jobTitle": "Principal Dentist"},
-    {"@type": "Person", "name": "Ross Mathieson", "jobTitle": "Dentist"}
+  "founder": [
+    {
+      "@type": "Person",
+      "name": "Stephen Bloor",
+      "jobTitle": "Principal Dentist"
+    },
+    {
+      "@type": "Person",
+      "name": "Ross Mathieson",
+      "jobTitle": "Dentist"
+    }
   ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+44-1204-522-581",
     "contactType": "customer service",
-    "availableLanguage": "English",
-    "areaServed": "GB"
+    "availableLanguage": "English"
   }
 }
 </script>
+
+<!-- Schema: WebSite -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "372 Dental",
-  "url": "https://372dental.co.uk"
+  "url": "https://372dental.co.uk/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://372dental.co.uk/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
 }
 </script>
+
+<!-- Schema: FAQPage -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -682,7 +128,7 @@ footer a:hover { color: var(--white); }
       "name": "Do you offer same-day emergency appointments?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. If you are experiencing dental pain, a broken tooth, or any other dental emergency, please call us immediately on 01204 522 581. We will do our best to see you on the same day."
+        "text": "Yes. If you are experiencing dental pain, a broken tooth, or any other dental emergency, please call us immediately. We will do our best to see you on the same day."
       }
     },
     {
@@ -712,6 +158,8 @@ footer a:hover { color: var(--white); }
   ]
 }
 </script>
+
+<!-- Schema: BreadcrumbList -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -726,153 +174,798 @@ footer a:hover { color: var(--white); }
   ]
 }
 </script>
+
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --purple: #6B3FA0;
+  --purple-light: #8B5FBF;
+  --purple-dark: #5A2D8C;
+  --purple-deeper: #4A1F7C;
+  --purple-muted: #9B7FC7;
+  --purple-pale: #EDE5F5;
+  --purple-faint: #F8F5FC;
+  --accent: #E8477E;
+  --accent-light: #F06998;
+  --navy: #1A1A2E;
+  --navy-light: #2D2D44;
+  --text: #333346;
+  --slate: #555568;
+  --slate-light: #8E8EA0;
+  --border: rgba(107,63,160,.08);
+  --cream: #FAFAFE;
+  --white: #FFFFFF;
+  --gold: #F5A623;
+  --green: #22C55E;
+  --lavender: #E8DEF8;
+  --shadow-xs: 0 1px 2px rgba(26,26,46,.04);
+  --shadow-sm: 0 1px 4px rgba(26,26,46,.06);
+  --shadow-md: 0 4px 20px rgba(26,26,46,.07);
+  --shadow-lg: 0 12px 40px rgba(26,26,46,.09);
+  --shadow-xl: 0 20px 50px rgba(26,26,46,.11);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-xs: 8px;
+  --radius-full: 999px;
+  --transition: .3s cubic-bezier(.22,.61,.36,1);
+}
+
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--text);
+  background: var(--white);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* ─── TOP BAR ─── */
+.topbar {
+  background: var(--navy);
+  color: rgba(255,255,255,.8);
+  font-size: .8rem;
+  padding: 8px 0;
+}
+.topbar .container {
+  display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+}
+.topbar-left, .topbar-right { display: flex; align-items: center; gap: 20px; }
+.topbar a { color: rgba(255,255,255,.8); text-decoration: none; transition: color .2s; display: flex; align-items: center; gap: 6px; }
+.topbar a:hover { color: var(--white); }
+.topbar-icon { width: 13px; height: 13px; opacity: .7; }
+
+/* ─── NAVBAR ─── */
+.navbar {
+  background: rgba(255,255,255,.97);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  position: sticky; top: 0; z-index: 100;
+  border-bottom: 1px solid var(--border);
+  transition: box-shadow .3s;
+}
+.navbar.scrolled { box-shadow: 0 2px 24px rgba(107,63,160,.08); }
+.navbar .container {
+  display: flex; justify-content: space-between; align-items: center;
+  height: 72px;
+}
+.logo { display: flex; align-items: center; text-decoration: none; }
+.logo img { height: 44px; width: auto; }
+
+nav { display: flex; align-items: center; gap: 2px; }
+nav a {
+  color: var(--slate); text-decoration: none; font-size: .88rem; font-weight: 500;
+  padding: 8px 14px; border-radius: var(--radius-xs); transition: all .25s;
+  letter-spacing: .01em;
+}
+nav a:hover { color: var(--purple); background: var(--purple-faint); }
+.nav-cta {
+  background: var(--purple) !important; color: var(--white) !important;
+  font-weight: 600 !important; padding: 10px 22px !important;
+  border-radius: var(--radius-xs) !important;
+  box-shadow: 0 2px 10px rgba(107,63,160,.25);
+  margin-left: 6px;
+}
+.nav-cta:hover { background: var(--purple-dark) !important; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(107,63,160,.35); }
+
+.mobile-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+.mobile-toggle span { display: block; width: 22px; height: 2px; background: var(--navy); margin: 5px 0; border-radius: 2px; }
+
+/* ─── BUTTONS ─── */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 14px 28px; border-radius: var(--radius-xs);
+  font-size: .92rem; font-weight: 600; text-decoration: none;
+  transition: all var(--transition); cursor: pointer; border: none;
+  letter-spacing: .01em;
+}
+.btn-primary {
+  background: var(--purple); color: var(--white);
+  box-shadow: 0 4px 16px rgba(107,63,160,.3);
+}
+.btn-primary:hover { background: var(--purple-dark); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(107,63,160,.35); }
+.btn-outline {
+  background: transparent; color: var(--purple);
+  border: 1.5px solid rgba(107,63,160,.25);
+}
+.btn-outline:hover { border-color: var(--purple); background: var(--purple-faint); }
+.btn-white {
+  background: var(--white); color: var(--purple-dark);
+  box-shadow: 0 4px 16px rgba(0,0,0,.1);
+}
+.btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.15); }
+.btn-ghost {
+  background: rgba(255,255,255,.1); color: var(--white);
+  border: 1px solid rgba(255,255,255,.2);
+}
+.btn-ghost:hover { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.35); }
+.btn svg { width: 16px; height: 16px; }
+
+/* ─── SECTION SYSTEM ─── */
+.section { padding: 96px 0; }
+.section-sm { padding: 64px 0; }
+.section-header { text-align: center; max-width: 600px; margin: 0 auto 56px; }
+.section-tag {
+  display: inline-block;
+  color: var(--purple); font-size: .72rem;
+  font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+  color: var(--navy); line-height: 1.2; margin-bottom: 14px;
+}
+.section-subtitle { color: var(--slate); font-size: 1.02rem; line-height: 1.7; }
+
+/* ─── HERO ─── */
+.hero {
+  position: relative;
+  padding: 80px 0 100px;
+  background: linear-gradient(170deg, var(--white) 0%, #f8f4fd 35%, var(--purple-pale) 100%);
+  overflow: hidden;
+}
+.hero::after {
+  content: ''; position: absolute; bottom: -1px; left: 0; right: 0; height: 80px;
+  background: linear-gradient(to top, var(--white), transparent);
+  z-index: 2;
+}
+.hero-pattern {
+  position: absolute; inset: 0; z-index: 0; opacity: .4;
+  background-image: radial-gradient(rgba(107,63,160,.06) 1.2px, transparent 1.2px);
+  background-size: 28px 28px;
+}
+.hero .container { position: relative; z-index: 3; display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.hero-content { animation: fadeUp .7s ease-out; }
+.hero-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--white); border: 1px solid var(--border);
+  color: var(--purple); font-size: .78rem; font-weight: 600;
+  padding: 5px 14px; border-radius: var(--radius-full);
+  margin-bottom: 24px; box-shadow: var(--shadow-xs);
+}
+.hero-badge .dot { width: 7px; height: 7px; background: var(--green); border-radius: 50%; animation: pulse 2s infinite; }
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.4rem, 4.5vw, 3.6rem);
+  color: var(--navy); line-height: 1.1;
+  margin-bottom: 20px; font-weight: 600;
+}
+.hero h1 em { font-style: normal; color: var(--purple); }
+.hero-desc { color: var(--slate); font-size: 1.08rem; line-height: 1.75; margin-bottom: 32px; max-width: 460px; }
+.hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 40px; }
+.hero-trust { display: flex; align-items: center; gap: 16px; }
+.hero-trust-stars { display: flex; gap: 2px; }
+.hero-trust-stars svg { width: 18px; height: 18px; fill: var(--gold); }
+.hero-trust-text { font-size: .84rem; color: var(--slate); }
+.hero-trust-text strong { color: var(--navy); }
+
+.hero-visual { animation: fadeUp .7s ease-out .15s both; }
+.hero-card-stack { position: relative; width: 100%; max-width: 440px; margin: 0 auto; }
+.hero-main-card {
+  width: 100%; aspect-ratio: 4/3.8; border-radius: 20px;
+  background: linear-gradient(150deg, #f0e6ff 0%, #e4d6f6 40%, #d9c8f0 100%);
+  box-shadow: var(--shadow-xl);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 32px; position: relative; overflow: hidden;
+}
+.hero-main-card::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at 70% 20%, rgba(255,255,255,.35), transparent 50%);
+}
+.hero-tooth {
+  font-size: 5.5rem; position: relative; z-index: 1;
+  filter: drop-shadow(0 8px 20px rgba(107,63,160,.15));
+  margin-bottom: 16px;
+}
+.hero-main-card h3 {
+  font-family: 'Playfair Display', serif; font-size: 1.3rem;
+  color: var(--navy); position: relative; z-index: 1;
+}
+.hero-main-card p { color: var(--slate); font-size: .85rem; position: relative; z-index: 1; margin-top: 4px; }
+
+.hero-float {
+  position: absolute; border-radius: 14px; background: var(--white);
+  box-shadow: var(--shadow-lg); padding: 14px 18px;
+  animation: float 4s ease-in-out infinite;
+}
+.hf-1 { top: 16px; right: -20px; animation-delay: 0s; }
+.hf-2 { bottom: 40px; left: -24px; animation-delay: 1.5s; }
+.hf-3 { bottom: -10px; right: 10px; animation-delay: .8s; }
+.hf-row { display: flex; align-items: center; gap: 10px; }
+.hf-icon {
+  width: 38px; height: 38px; min-width: 38px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+}
+.hf-icon i {
+  font-size: 1.05rem; line-height: 1;
+}
+.hf-icon-purple { background: var(--purple-pale); }
+.hf-icon-green { background: #dcfce7; }
+.hf-icon-gold { background: #fef3c7; }
+.hf-label { font-size: .72rem; color: var(--slate-light); line-height: 1.3; }
+.hf-value { font-size: .85rem; font-weight: 700; color: var(--navy); line-height: 1.3; }
+
+/* ─── STATS BAR ─── */
+.stats-bar {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  padding: 36px 0;
+}
+.stats-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+}
+.stat-item { text-align: center; }
+.stat-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem; font-weight: 700; color: var(--purple);
+  line-height: 1;
+}
+.stat-label { font-size: .82rem; color: var(--slate); margin-top: 6px; font-weight: 500; }
+
+/* ─── ABOUT ─── */
+.about { background: var(--white); }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.about-visual {
+  position: relative; border-radius: 20px; overflow: hidden;
+  min-height: 500px;
+}
+.about-visual img {
+  width: 100%; height: 100%; object-fit: cover;
+  position: absolute; inset: 0; display: block;
+}
+.about-visual::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 55%;
+  background: linear-gradient(to top, rgba(26,26,46,.9) 0%, rgba(26,26,46,.4) 60%, transparent 100%);
+  z-index: 1;
+}
+.about-stat-bar {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+  padding: 28px 32px;
+}
+.about-stat-bar-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem; color: var(--white); font-weight: 600;
+  margin-bottom: 4px;
+}
+.about-stat-bar-sub { font-size: .78rem; color: rgba(255,255,255,.55); margin-bottom: 18px; }
+.about-stat-row {
+  display: flex; gap: 12px;
+}
+.about-stat-badge {
+  background: rgba(255,255,255,.1); backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px; padding: 14px 20px; text-align: center; flex: 1;
+}
+.about-stat-badge .num {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem; font-weight: 700; color: var(--white); line-height: 1;
+}
+.about-stat-badge .lbl { font-size: .68rem; color: rgba(255,255,255,.55); margin-top: 4px; font-weight: 500; }
+
+.about-content .section-tag { text-align: left; }
+.about-content h2 {
+  font-family: 'Playfair Display', serif; font-size: 2rem;
+  color: var(--navy); margin-bottom: 18px; line-height: 1.2;
+}
+.about-content p { color: var(--slate); font-size: .96rem; line-height: 1.8; margin-bottom: 14px; }
+.about-checklist { display: flex; flex-direction: column; gap: 12px; margin-top: 24px; }
+.check-item {
+  display: flex; align-items: center; gap: 10px;
+  font-size: .9rem; font-weight: 500; color: var(--text);
+}
+.check-icon {
+  width: 24px; height: 24px; min-width: 24px; border-radius: 6px;
+  background: var(--purple-pale); display: flex; align-items: center; justify-content: center;
+}
+.check-icon svg { width: 13px; height: 13px; stroke: var(--purple); stroke-width: 2.5; fill: none; }
+
+/* ─── SERVICES ─── */
+.services { background: var(--cream); }
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.svc-card {
+  background: var(--white); border-radius: var(--radius);
+  padding: 32px 28px; border: 1px solid var(--border);
+  transition: all .35s cubic-bezier(.22,.61,.36,1);
+  position: relative; overflow: hidden;
+  text-decoration: none; display: block; color: inherit;
+}
+.svc-card::after {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: var(--purple); transform: scaleX(0); transform-origin: left;
+  transition: transform .35s;
+}
+.svc-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: transparent; }
+.svc-card:hover::after { transform: scaleX(1); }
+.svc-icon {
+  width: 54px; height: 54px; border-radius: 14px;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 18px;
+}
+.svc-icon i {
+  font-size: 1.4rem; line-height: 1;
+  color: var(--purple);
+}
+.svc-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+.svc-card p { color: var(--slate); font-size: .86rem; line-height: 1.65; margin-bottom: 16px; }
+.svc-link {
+  display: inline-flex; align-items: center; gap: 5px;
+  color: var(--purple); font-size: .82rem; font-weight: 600;
+  text-decoration: none; transition: gap .3s;
+}
+.svc-link:hover { gap: 9px; }
+
+/* ─── WHY CHOOSE US ─── */
+.why-us { background: var(--white); }
+.why-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.why-card {
+  text-align: center; padding: 32px 20px; border-radius: var(--radius);
+  border: 1px solid var(--border); transition: all var(--transition);
+}
+.why-card:hover { border-color: rgba(107,63,160,.15); box-shadow: var(--shadow-sm); }
+.why-icon {
+  width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 16px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--purple-faint);
+}
+.why-icon i {
+  font-size: 1.5rem; line-height: 1;
+  color: var(--purple);
+}
+.why-card h3 { font-size: .95rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+.why-card p { font-size: .82rem; color: var(--slate); line-height: 1.6; }
+
+/* ─── REVIEWS ─── */
+.reviews {
+  background: linear-gradient(170deg, var(--navy) 0%, #251540 50%, var(--purple-deeper) 100%);
+  color: var(--white); position: relative; overflow: hidden;
+}
+.reviews::before {
+  content: ''; position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 55% 50% at 85% 15%, rgba(139,95,191,.2), transparent 55%),
+    radial-gradient(ellipse 35% 40% at 5% 85%, rgba(232,71,126,.08), transparent 45%);
+}
+.reviews .container { position: relative; z-index: 1; }
+.reviews .section-tag { color: var(--purple-muted); }
+.reviews .section-title { color: var(--white); }
+.reviews .section-subtitle { color: rgba(255,255,255,.55); }
+
+.reviews-summary {
+  display: flex; align-items: center; justify-content: center;
+  gap: 40px; margin-bottom: 48px; flex-wrap: wrap;
+}
+.review-platform {
+  display: flex; align-items: center; gap: 14px;
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08);
+  padding: 16px 24px; border-radius: 14px;
+}
+.platform-logo {
+  width: 42px; height: 42px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.3rem; font-weight: 700;
+}
+.pl-google { background: var(--white); color: #4285F4; }
+.pl-yell { background: #FFD700; color: #333; font-size: .9rem; }
+.pl-nhs { background: #005EB8; color: var(--white); font-size: .7rem; }
+.platform-info .p-name { font-size: .82rem; color: rgba(255,255,255,.6); }
+.platform-info .p-rating { font-size: 1.1rem; font-weight: 700; color: var(--white); }
+.platform-info .p-stars { color: var(--gold); font-size: .85rem; letter-spacing: 1px; }
+
+.reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.review-card {
+  background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.08);
+  border-radius: var(--radius); padding: 28px;
+  transition: all .3s;
+}
+.review-card:hover { background: rgba(255,255,255,.08); transform: translateY(-3px); }
+.review-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+.review-stars { color: var(--gold); font-size: .85rem; letter-spacing: 2px; }
+.review-source { font-size: .72rem; color: rgba(255,255,255,.4); font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+.review-card blockquote { color: rgba(255,255,255,.8); font-size: .88rem; line-height: 1.65; margin-bottom: 18px; }
+.review-author { display: flex; align-items: center; gap: 10px; }
+.review-avatar {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: linear-gradient(135deg, var(--purple), var(--purple-light));
+  display: flex; align-items: center; justify-content: center;
+  color: var(--white); font-weight: 700; font-size: .8rem;
+}
+.review-name { font-weight: 600; font-size: .85rem; color: var(--white); }
+.review-date { font-size: .72rem; color: rgba(255,255,255,.4); }
+
+.reviews-cta {
+  text-align: center; margin-top: 40px;
+  display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;
+}
+
+/* ─── TEAM ─── */
+.team { background: var(--cream); }
+.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.team-card {
+  background: var(--white); border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--border); transition: all var(--transition);
+}
+.team-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+.team-photo {
+  height: 200px;
+  display: flex; align-items: center; justify-content: center; font-size: 3.5rem;
+}
+.tp-1 { background: linear-gradient(135deg, #f0e6ff, #e4d6f6); }
+.tp-2 { background: linear-gradient(135deg, #e8def8, #d4c4f0); }
+.tp-3 { background: linear-gradient(135deg, #fce7f3, #f5d0e0); }
+.team-info { padding: 22px; }
+.team-info h3 { font-size: 1.02rem; font-weight: 700; color: var(--navy); margin-bottom: 3px; }
+.team-info .role { font-size: .8rem; color: var(--purple); font-weight: 600; margin-bottom: 8px; }
+.team-info p { font-size: .84rem; color: var(--slate); line-height: 1.6; }
+
+/* ─── FAQ ─── */
+.faq { background: var(--white); }
+.faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+.faq-left .section-tag { text-align: left; }
+.faq-left h2 {
+  font-family: 'Playfair Display', serif; font-size: 2rem;
+  color: var(--navy); margin-bottom: 14px; line-height: 1.2;
+}
+.faq-left p { color: var(--slate); font-size: .96rem; line-height: 1.7; margin-bottom: 24px; }
+
+.faq-list { display: flex; flex-direction: column; gap: 8px; }
+.faq-item {
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  overflow: hidden; transition: border-color .3s;
+}
+.faq-item.active { border-color: rgba(107,63,160,.2); }
+.faq-q {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px 20px; cursor: pointer; gap: 12px;
+  background: none; border: none; width: 100%;
+  font-family: 'DM Sans', sans-serif; font-size: .92rem;
+  font-weight: 600; color: var(--navy); text-align: left;
+}
+.faq-q:hover { color: var(--purple); }
+.faq-toggle {
+  width: 20px; height: 20px; min-width: 20px;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .3s; color: var(--slate-light);
+}
+.faq-toggle svg { width: 16px; height: 16px; }
+.faq-item.active .faq-toggle { transform: rotate(180deg); color: var(--purple); }
+.faq-a {
+  max-height: 0; overflow: hidden; transition: max-height .35s ease, padding .35s ease;
+  padding: 0 20px;
+}
+.faq-item.active .faq-a { max-height: 200px; padding: 0 20px 18px; }
+.faq-a p { font-size: .88rem; color: var(--slate); line-height: 1.7; }
+
+/* ─── BOOKING FORM ─── */
+.booking { background: var(--cream); }
+.booking-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+.booking-info .section-tag { text-align: left; }
+.booking-info h2 {
+  font-family: 'Playfair Display', serif; font-size: 2rem;
+  color: var(--navy); margin-bottom: 14px; line-height: 1.2;
+}
+.booking-info p { color: var(--slate); font-size: .96rem; line-height: 1.7; margin-bottom: 20px; }
+.booking-contact-list { display: flex; flex-direction: column; gap: 14px; }
+.bc-item { display: flex; align-items: center; gap: 12px; }
+.bc-icon {
+  width: 42px; height: 42px; min-width: 42px; border-radius: 11px;
+  background: var(--purple-pale); display: flex; align-items: center; justify-content: center;
+}
+.bc-icon i {
+  font-size: 1.05rem; line-height: 1;
+  color: var(--purple);
+}
+.bc-item .bc-label { font-size: .78rem; color: var(--slate-light); }
+.bc-item .bc-value { font-size: .92rem; font-weight: 600; color: var(--navy); }
+
+.booking-form-card {
+  background: var(--white); border-radius: var(--radius);
+  padding: 36px; box-shadow: var(--shadow-md);
+  border: 1px solid var(--border);
+}
+.booking-form-card h3 {
+  font-family: 'Playfair Display', serif; font-size: 1.3rem;
+  color: var(--navy); margin-bottom: 24px;
+}
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+.form-group { display: flex; flex-direction: column; gap: 5px; }
+.form-group.full { grid-column: 1 / -1; }
+.form-group label { font-size: .78rem; font-weight: 600; color: var(--slate); }
+.form-group input, .form-group select, .form-group textarea {
+  padding: 11px 14px; border: 1px solid rgba(107,63,160,.12);
+  border-radius: var(--radius-xs); font-family: 'DM Sans', sans-serif;
+  font-size: .88rem; color: var(--text); transition: border-color .2s;
+  background: var(--white); outline: none;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+  border-color: var(--purple);
+}
+.form-group textarea { resize: vertical; min-height: 80px; }
+.form-submit { margin-top: 8px; }
+.form-submit .btn { width: 100%; justify-content: center; padding: 14px; }
+
+/* ─── CTA BANNER ─── */
+.cta-section { padding: 80px 0; background: var(--white); }
+.cta-banner {
+  background: linear-gradient(140deg, var(--purple), var(--purple-deeper));
+  border-radius: 24px; padding: 56px;
+  display: grid; grid-template-columns: 1fr auto; gap: 40px; align-items: center;
+  position: relative; overflow: hidden;
+}
+.cta-banner::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(circle at 90% 30%, rgba(255,255,255,.08), transparent 40%);
+}
+.cta-banner * { position: relative; z-index: 1; }
+.cta-banner h2 {
+  font-family: 'Playfair Display', serif; font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  color: var(--white); margin-bottom: 10px;
+}
+.cta-banner p { color: rgba(255,255,255,.75); font-size: 1rem; max-width: 480px; }
+.cta-btns { display: flex; gap: 12px; flex-wrap: wrap; }
+
+/* ─── HOURS & MAP ─── */
+.info-section { background: var(--cream); padding: 96px 0; }
+.info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.info-card {
+  background: var(--white); border-radius: var(--radius); padding: 36px;
+  border: 1px solid var(--border);
+}
+.info-card h3 {
+  font-family: 'Playfair Display', serif; font-size: 1.3rem;
+  color: var(--navy); margin-bottom: 24px;
+  display: flex; align-items: center; gap: 10px;
+}
+.hours-row {
+  display: flex; justify-content: space-between; padding: 10px 0;
+  border-bottom: 1px solid rgba(107,63,160,.04); font-size: .88rem;
+}
+.hours-row:last-child { border-bottom: none; }
+.hours-day { font-weight: 600; color: var(--navy); }
+.hours-time { color: var(--slate); }
+.hours-closed { color: var(--accent); font-weight: 600; }
+
+.map-placeholder {
+  height: 200px; border-radius: 12px; margin-bottom: 20px;
+  background: linear-gradient(135deg, #f0e6ff, #e4d6f6);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 2.5rem; position: relative;
+}
+.map-placeholder::after {
+  content: 'Bolton, Greater Manchester'; position: absolute; bottom: 10px;
+  font-size: .75rem; color: var(--slate); background: var(--white);
+  padding: 4px 12px; border-radius: 6px; box-shadow: var(--shadow-xs);
+}
+.contact-rows { display: flex; flex-direction: column; gap: 12px; }
+.contact-row { display: flex; align-items: center; gap: 10px; }
+.cr-icon {
+  width: 34px; height: 34px; min-width: 34px; border-radius: 9px;
+  background: var(--purple-pale); display: flex; align-items: center; justify-content: center;
+}
+.cr-icon i {
+  font-size: .85rem; line-height: 1;
+  color: var(--purple);
+}
+.cr-label { font-size: .75rem; color: var(--slate-light); }
+.cr-value { font-size: .88rem; font-weight: 600; color: var(--navy); }
+
+/* ─── DENPLAN BANNER ─── */
+.denplan-section {
+  background: var(--white); padding: 48px 0;
+  border-top: 1px solid var(--border);
+}
+.denplan-inner {
+  display: flex; align-items: center; justify-content: center;
+  gap: 20px; flex-wrap: wrap;
+}
+.denplan-badge-lg {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--purple-faint); padding: 16px 28px;
+  border-radius: 14px; border: 1px solid var(--border);
+}
+.denplan-icon { font-size: 2rem; }
+.denplan-text h4 { font-size: .95rem; font-weight: 700; color: var(--navy); }
+.denplan-text p { font-size: .82rem; color: var(--slate); }
+
+/* ─── FOOTER ─── */
+footer {
+  background: var(--navy); color: rgba(255,255,255,.65);
+  padding: 56px 0 24px;
+}
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 36px; margin-bottom: 40px; }
+.footer-brand .footer-logo { height: 38px; width: auto; margin-bottom: 12px; filter: brightness(0) invert(1); }
+.footer-brand p { font-size: .84rem; line-height: 1.7; color: rgba(255,255,255,.45); }
+.footer-social { display: flex; gap: 8px; margin-top: 16px; }
+.footer-social a {
+  width: 34px; height: 34px; border-radius: 8px;
+  background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.08);
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(255,255,255,.5); text-decoration: none; font-size: .75rem;
+  transition: all .2s;
+}
+.footer-social a:hover { background: rgba(107,63,160,.3); color: var(--white); }
+.footer-col h4 {
+  color: var(--white); font-size: .78rem; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; margin-bottom: 16px;
+}
+.footer-col a {
+  display: block; color: rgba(255,255,255,.5); text-decoration: none;
+  font-size: .84rem; padding: 4px 0; transition: color .2s;
+}
+.footer-col a:hover { color: var(--purple-muted); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,.06);
+  padding-top: 20px; display: flex; justify-content: space-between;
+  align-items: center; font-size: .78rem; color: rgba(255,255,255,.35);
+}
+.footer-bottom a { color: rgba(255,255,255,.35); text-decoration: none; }
+.footer-bottom a:hover { color: var(--purple-muted); }
+
+/* ─── ANIMATIONS ─── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .35; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.fade-in {
+  opacity: 0; transform: translateY(20px);
+  transition: opacity .55s ease-out, transform .55s ease-out;
+}
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1024px) {
+  .hero .container { grid-template-columns: 1fr; text-align: center; }
+  .hero-desc { margin-left: auto; margin-right: auto; }
+  .hero-btns, .hero-trust { justify-content: center; }
+  .hero-visual { display: none; }
+  .about-grid, .faq-grid, .booking-grid { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .reviews-grid, .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .why-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .cta-banner { grid-template-columns: 1fr; text-align: center; }
+  .cta-btns { justify-content: center; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 768px) {
+  nav { display: none; }
+  .mobile-toggle { display: block; }
+  .topbar-right { display: none; }
+  .hero { padding: 48px 0 64px; }
+  .section { padding: 64px 0; }
+  .services-grid, .reviews-grid, .team-grid, .why-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  .info-grid { grid-template-columns: 1fr; }
+  .cta-banner { padding: 36px 24px; }
+  .form-row { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
+  .reviews-summary { gap: 12px; }
+  .review-platform { padding: 12px 16px; }
+}
+</style>
 </head>
 <body>
 
-<!-- Top Bar -->
-<div class="top-bar">
-  <div class="wrap">
-    <span>372 Dental Practice, Bolton</span>
-    <a href="tel:01204522581">Call us: 01204 522 581</a>
+<!-- TOP BAR -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-left">
+      <a href="tel:01204522581">
+        <svg class="topbar-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.1.31.03.66-.25 1.02l-2.2 2.2z"/></svg>
+        01204 522 581
+      </a>
+      <a href="mailto:info372dental@aol.co.uk">
+        <svg class="topbar-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        info372dental@aol.co.uk
+      </a>
+    </div>
+    <div class="topbar-right">
+      <span>Mon&ndash;Sat: 8:30am &ndash; 7:00pm</span>
+    </div>
   </div>
 </div>
 
-<!-- Header -->
-<header>
-  <div class="nav-wrap">
-    <a href="#"><img src="372-logo.png" alt="372 Dental" class="nav-logo"></a>
-    <button class="menu-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+  <div class="container">
+    <a class="logo" href="/">
+      <img src="372-logo.png" alt="372 Dental">
+    </a>
     <nav>
-      <a href="#services">Services</a>
       <a href="#about">About</a>
-      <a href="#team">Team</a>
+      <a href="#services">Services</a>
+      <a href="#team">Our Team</a>
       <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
-      <a href="/new-patients" class="nav-cta">Book Now</a>
+      <a href="#faq">FAQ</a>
+      <a href="#booking" class="nav-cta">Book Appointment</a>
     </nav>
+    <button class="mobile-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
-<!-- Hero -->
+<!-- HERO -->
 <section class="hero">
-  <div class="wrap">
-    <div>
-      <div class="hero-badge">Accepting New Patients</div>
-      <h1>Expert Dental Care for the <span>Whole Family</span> in Bolton</h1>
-      <p>We are a warm, professional <a href="/about">dental practice in Bolton</a> that has been looking after local families for over a century. Whether you need a <a href="/dental-check-ups">routine check-up</a>, <a href="/emergency-dentist-bolton">emergency treatment</a>, or <a href="/cosmetic-dentistry-bolton">cosmetic dentistry</a>, our experienced team is here to help.</p>
-      <div class="hero-buttons">
-        <a href="/new-patients" class="btn-primary">Book an Appointment</a>
-        <a href="tel:01204522581" class="btn-outline">
-          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.86 19.86 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+  <div class="hero-pattern"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge"><span class="dot"></span> We're Accepting New Patients</div>
+      <h1>Expert Dental Care for the <em>Whole Family</em> in Bolton</h1>
+      <p class="hero-desc">We are a warm, professional dental practice in Bolton that has been looking after local families for over a century. Whether you need a routine check-up, emergency treatment, or cosmetic dentistry, our experienced team is here to help.</p>
+      <div class="hero-btns">
+        <a href="/new-patients" class="btn btn-primary">
+          Book an Appointment
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="tel:01204522581" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           Call 01204 522 581
         </a>
       </div>
-    </div>
-    <div class="hero-image">
-      <img src="hero-image.jpg" alt="Dentist treating a patient at 372 Dental">
-    </div>
-  </div>
-</section>
-
-<!-- Trust Badges -->
-<div class="trust-section">
-  <div class="trust-wrap">
-    <div class="trust-item">
-      <span style="font-size:0.9rem; color:var(--slate); font-weight:500;">Est. 1920s</span>
-    </div>
-    <div class="trust-item">
-      <img src="google-review.png" alt="Google Reviews" style="height:40px;">
-      <span style="font-size:0.9rem; color:var(--slate); font-weight:500;">5.0 Google Rating</span>
-    </div>
-    <div class="trust-item">
-      <img src="denplan-logo.png" alt="Denplan Provider">
-      <span style="font-size:0.9rem; color:var(--slate); font-weight:500;">Denplan Registered</span>
-    </div>
-    <div class="trust-item">
-      <span style="font-size:0.9rem; color:var(--slate); font-weight:500;">CQC Inspected</span>
-    </div>
-  </div>
-</div>
-
-<!-- Services -->
-<section class="section bg-faint" id="services">
-  <div class="wrap">
-    <span class="section-label">What We Offer</span>
-    <h2 class="section-title">What We Offer</h2>
-    <p class="section-sub">At 372 Dental, we provide a full range of dental services for patients of all ages. Our team is experienced in everything from general dentistry to specialist cosmetic treatments.</p>
-    <div class="services-grid">
-      <a href="/dental-check-ups" class="service-card">
-        <div class="service-icon">🦷</div>
-        <h3>General Check-Ups</h3>
-        <p>Regular examinations and professional cleaning to keep your teeth and gums in excellent condition. We recommend a visit every six months.</p>
-      </a>
-      <a href="/emergency-dentist-bolton" class="service-card">
-        <div class="service-icon">🚨</div>
-        <h3>Emergency Dentist</h3>
-        <p>Experiencing severe tooth pain, a broken tooth, or a dental abscess? We offer same-day <strong>emergency dental appointments</strong> so you can be seen as quickly as possible.</p>
-      </a>
-      <a href="/hygienist-gum-disease" class="service-card">
-        <div class="service-icon">✨</div>
-        <h3>Hygienist & Gum Care</h3>
-        <p>Professional deep cleaning and gum disease treatment to help prevent tooth loss and maintain healthy gums for the long term.</p>
-      </a>
-      <a href="/childrens-dentist-bolton" class="service-card">
-        <div class="service-icon">👶</div>
-        <h3>Children's Dentistry</h3>
-        <p>Gentle, patient care for young ones. We will provide your child with the care and treatment they need, and motivate and educate your children to appreciate and value their teeth for life.</p>
-      </a>
-      <a href="/cosmetic-dentistry-bolton" class="service-card">
-        <div class="service-icon">💎</div>
-        <h3>Cosmetic Dentistry</h3>
-        <p>We use the latest cosmetic dental procedures to help you achieve the smile you have always wanted. From <strong>teeth whitening</strong> to <strong>veneers and composite bonding</strong>, we offer treatments tailored to your needs.</p>
-      </a>
-      <a href="/teeth-whitening-bolton" class="service-card">
-        <div class="service-icon">🌟</div>
-        <h3>Teeth Whitening</h3>
-        <p>Professional whitening treatments to brighten your smile safely and effectively, carried out under the supervision of our qualified dental team.</p>
-      </a>
-      <a href="/nhs-dentist-bolton" class="service-card">
-        <div class="service-icon">🛡️</div>
-        <h3>NHS Dentist</h3>
-        <p>Children and patients under 18 years of age are treated under the NHS Registration Scheme free of charge. Contact our reception team for details on NHS availability.</p>
-      </a>
-      <a href="/nervous-patients" class="service-card">
-        <div class="service-icon">💜</div>
-        <h3>Nervous Patients</h3>
-        <p>We understand that visiting the dentist can feel daunting. Our team takes extra care to ensure nervous and anxious patients feel comfortable and at ease throughout their visit.</p>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- About -->
-<section class="section" id="about">
-  <div class="wrap">
-    <span class="section-label">About Us</span>
-    <h2 class="section-title">Your Trusted Dentist on Bury Road, Bolton</h2>
-    <div class="about-grid">
-      <div class="about-image">
-        <img src="dentist.jpg" alt="Lead dentist at 372 Dental">
+      <div class="hero-trust">
+        <div class="hero-trust-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="hero-trust-text"><strong>5.0</strong> from 50+ reviews on Google</div>
       </div>
-      <div class="about-text">
-        <h3>A Practice You Can Trust</h3>
-        <p>Established since the 1920s, 372 Dental is a well-regarded dental practice situated on <a href="/contact">Bury Road in Bolton</a>. We pride ourselves on providing a professional and caring service at all times, whilst maintaining the highest quality of work.</p>
-        <p>Our practice comprises three newly renovated surgeries, fully equipped with the latest technology used in modern dentistry. All our records are fully computerised, and our surgeries are situated on the ground floor with easy access for wheelchair users.</p>
-        <p>Under the ownership of Stephen Bloor and Ross Mathieson, we have created a peaceful environment that is fresh, modern and welcoming. From your first assessment, we aim to ensure that you receive the highest levels of care available in preventive and precision dentistry.</p>
-        <div class="about-stats">
-          <div class="stat">
-            <div class="stat-num">1920s</div>
-            <div class="stat-label">Established</div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card-stack">
+        <div class="hero-main-card" style="padding:0;">
+          <img src="hero-image.jpg" alt="Professional dental care at 372 Dental Bolton" style="width:100%;height:100%;object-fit:cover;border-radius:20px;">
+        </div>
+        <div class="hero-float hf-1">
+          <div class="hf-row">
+            <div class="hf-icon hf-icon-purple"><i class="fi fi-rr-shield-check" style="color:var(--purple);"></i></div>
+            <div><div class="hf-label">Denplan</div><div class="hf-value">Registered</div></div>
           </div>
-          <div class="stat">
-            <div class="stat-num">5.0</div>
-            <div class="stat-label">Google Rating</div>
+        </div>
+        <div class="hero-float hf-2">
+          <div class="hf-row">
+            <div class="hf-icon hf-icon-green"><i class="fi fi-rr-check" style="color:#22C55E;"></i></div>
+            <div><div class="hf-label">NHS</div><div class="hf-value">Accepting</div></div>
           </div>
-          <div class="stat">
-            <div class="stat-num">All Ages</div>
-            <div class="stat-label">Welcome</div>
+        </div>
+        <div class="hero-float hf-3">
+          <div class="hf-row">
+            <div class="hf-icon hf-icon-gold"><i class="fi fi-sr-star" style="color:#F5A623;"></i></div>
+            <div><div class="hf-label">Google</div><div class="hf-value">5.0 Stars</div></div>
           </div>
         </div>
       </div>
@@ -880,236 +973,522 @@ footer a:hover { color: var(--white); }
   </div>
 </section>
 
-<!-- Team -->
-<section class="section bg-faint" id="team">
-  <div class="wrap">
-    <span class="section-label">Our Team</span>
-    <h2 class="section-title">Meet the 372 Dental Family</h2>
-    <p class="section-sub">Our dedicated team of dental professionals are here to provide you with the highest standard of care in a warm, welcoming environment.</p>
-    <div class="team-image-wrap">
-      <img src="team.jpg" alt="The 372 Dental team">
-      <div class="team-overlay">
-        <h3>Dedicated Professionals</h3>
-        <p>Our friendly team is committed to making every visit a positive experience.</p>
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item fade-in"><div class="stat-number">100+</div><div class="stat-label">Years Established</div></div>
+      <div class="stat-item fade-in"><div class="stat-number">5.0</div><div class="stat-label">Google Rating</div></div>
+      <div class="stat-item fade-in"><div class="stat-number">10K+</div><div class="stat-label">Patients Served</div></div>
+      <div class="stat-item fade-in"><div class="stat-number">8</div><div class="stat-label">Specialist Services</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual fade-in">
+        <img src="team.jpg" alt="372 Dental Team">
+        <div class="about-stat-bar">
+          <div class="about-stat-bar-label">Trusted by Bolton Families</div>
+          <div class="about-stat-bar-sub">Providing expert dental care since the 1920s</div>
+          <div class="about-stat-row">
+            <div class="about-stat-badge"><div class="num">100+</div><div class="lbl">Years Established</div></div>
+            <div class="about-stat-badge"><div class="num">5.0</div><div class="lbl">Google Rating</div></div>
+            <div class="about-stat-badge"><div class="num">10K+</div><div class="lbl">Patients Served</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="about-content fade-in">
+        <div class="section-tag">About Our Practice</div>
+        <h2>We're The Dental Experts You Can Trust</h2>
+        <p>Established since the 1920s, 372 Dental is a well-regarded dental practice situated on Bury Road in Bolton. We pride ourselves on providing a professional and caring service at all times, whilst maintaining the highest quality of work.</p>
+        <p>Our practice comprises three newly renovated surgeries, fully equipped with the latest technology used in modern dentistry. All our records are fully computerised, and our surgeries are situated on the ground floor with easy access for wheelchair users.</p>
+        <div class="about-checklist">
+          <div class="check-item"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div> NHS &amp; Private Treatments Available</div>
+          <div class="check-item"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div> Children Registered Under NHS Free of Charge</div>
+          <div class="check-item"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div> Same-Day Emergency Appointments</div>
+          <div class="check-item"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div> Denplan Monthly Payment Plans</div>
+          <div class="check-item"><div class="check-icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div> Modern Equipment &amp; Sterilisation Standards</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- New Patients -->
-<section class="section" id="new-patients">
-  <div class="wrap">
-    <span class="section-label">New Patients</span>
-    <h2 class="section-title">New Patients Welcome</h2>
-    <p class="section-sub" style="max-width:700px;">First-time adult patients will fall under our <a href="/private-dentist-bolton">Private Care Plan</a> (pay as you go) or the <a href="/denplan">Denplan Scheme</a> (monthly budget payment). Denplan allows you to spread the cost of your routine dental care evenly throughout the year, so there are no surprise bills.</p>
-    <p style="color:var(--slate); margin-top:1rem; max-width:700px; line-height:1.7; font-size:1.05rem;">Children and patients under 18 years of age will fall under the <a href="/nhs-dentist-bolton">NHS Registration Scheme</a>, which is free of charge. We are proud to be an <a href="/nhs-dentist-bolton">NHS dentist in Bolton</a> that continues to welcome young patients.</p>
-    <p style="color:var(--slate); margin-top:1rem; max-width:700px; line-height:1.7; font-size:1.05rem;">To register as a new patient or to find out more about our options, please contact our reception team on <strong><a href="tel:01204522581">01204 522 581</a></strong> or visit our <a href="/new-patients">new patients page</a>.</p>
-  </div>
-</section>
-
-<!-- Emergency -->
-<section class="section bg-faint" id="emergency">
-  <div class="wrap">
-    <span class="section-label">Emergency Care</span>
-    <h2 class="section-title">Need Emergency Dental Care?</h2>
-    <p class="section-sub" style="max-width:700px;">If you need emergency dental assistance and our dentists are busy at that moment, please do not worry. Call us immediately on <strong><a href="tel:01204522581">01204 522 581</a></strong> and we will ensure you are given an appointment on a priority basis.</p>
-    <p style="color:var(--slate); margin-top:1rem; max-width:700px; line-height:1.7; font-size:1.05rem;">As a registered private or <a href="/denplan">Denplan patient</a>, you can also access weekend emergency cover between 9am and 5pm on Saturdays. For full details on what to do in a <a href="/emergency-dentist-bolton">dental emergency in Bolton</a>, please visit our dedicated emergency page.</p>
-    <p style="color:var(--slate); margin-top:1rem; max-width:700px; line-height:1.7; font-size:1.05rem;">We treat all common dental emergencies including severe toothache, broken or chipped teeth, lost fillings or crowns, dental abscesses, and knocked-out teeth.</p>
-  </div>
-</section>
-
-<!-- Why Choose Us -->
-<section class="section" id="why-us">
-  <div class="wrap">
-    <span class="section-label">Why Choose Us</span>
-    <h2 class="section-title">Why Families Choose 372 Dental</h2>
+<!-- SERVICES -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-tag">Our Services</div>
+      <h2 class="section-title">Comprehensive Dental Care</h2>
+      <p class="section-subtitle">From routine check-ups to specialist cosmetic treatments, we deliver exceptional care tailored to every patient.</p>
+    </div>
     <div class="services-grid">
-      <div class="service-card">
-        <div class="service-icon">🏛️</div>
+      <a href="/dental-check-ups" class="svc-card fade-in">
+        <div class="svc-icon" style="background:var(--purple-pale)"><i class="fi fi-rr-calendar"></i></div>
+        <h3>General Check-Ups</h3>
+        <p>Regular examinations and professional cleaning to keep your teeth and gums in excellent condition. We recommend a visit every six months.</p>
+        <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="/emergency-dentist-bolton" class="svc-card fade-in">
+        <div class="svc-icon" style="background:rgba(232,71,126,.08)"><i class="fi fi-rr-triangle-warning" style="color:var(--accent);"></i></div>
+        <h3>Emergency Dentist</h3>
+        <p>Experiencing severe tooth pain, a broken tooth, or a dental abscess? We offer same-day emergency dental appointments so you can be seen as quickly as possible.</p>
+        <span class="svc-link">Get Help Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="/hygienist-gum-disease" class="svc-card fade-in">
+        <div class="svc-icon" style="background:rgba(200,180,224,.15)"><i class="fi fi-rr-sparkles"></i></div>
+        <h3>Hygienist &amp; Gum Care</h3>
+        <p>Professional deep cleaning and gum disease treatment to help prevent tooth loss and maintain healthy gums for the long term.</p>
+        <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="/childrens-dentist-bolton" class="svc-card fade-in">
+        <div class="svc-icon" style="background:rgba(139,95,191,.08)"><i class="fi fi-rr-smile"></i></div>
+        <h3>Children's Dentistry</h3>
+        <p>Gentle, patient care for young ones. We will provide your child with the care and treatment they need, and motivate them to appreciate and value their teeth for life.</p>
+        <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="/cosmetic-dentistry-bolton" class="svc-card fade-in">
+        <div class="svc-icon" style="background:rgba(26,26,46,.05)"><i class="fi fi-rr-star"></i></div>
+        <h3>Cosmetic Dentistry</h3>
+        <p>We use the latest cosmetic dental procedures to help you achieve the smile you have always wanted. From teeth whitening to veneers and composite bonding.</p>
+        <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="/teeth-whitening-bolton" class="svc-card fade-in">
+        <div class="svc-icon" style="background:rgba(245,166,35,.08)"><i class="fi fi-rr-brightness" style="color:#E8941A;"></i></div>
+        <h3>Teeth Whitening</h3>
+        <p>Professional whitening treatments to brighten your smile safely and effectively, carried out under the supervision of our qualified dental team.</p>
+        <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="/nhs-dentist-bolton" class="svc-card fade-in">
+        <div class="svc-icon" style="background:rgba(0,94,184,.08)"><i class="fi fi-rr-shield-check" style="color:#005EB8;"></i></div>
+        <h3>NHS Dentist</h3>
+        <p>Children and patients under 18 years of age are treated under the NHS Registration Scheme free of charge. Contact our reception team for details.</p>
+        <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+      <a href="/nervous-patients" class="svc-card fade-in">
+        <div class="svc-icon" style="background:rgba(34,197,94,.08)"><i class="fi fi-rr-heart" style="color:#22C55E;"></i></div>
+        <h3>Nervous Patients</h3>
+        <p>We understand that visiting the dentist can feel daunting. Our team takes extra care to ensure nervous and anxious patients feel comfortable and at ease.</p>
+        <span class="svc-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="section why-us">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-tag">Why 372 Dental</div>
+      <h2 class="section-title">Why Families Choose Us</h2>
+      <p class="section-subtitle">Here's what makes 372 Dental different from other practices in Bolton and the surrounding area.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card fade-in">
+        <div class="why-icon"><i class="fi fi-rr-trophy"></i></div>
         <h3>Established Since the 1920s</h3>
-        <p>We have been caring for Bolton families for over a century. That kind of trust is not built overnight — it is earned through consistent, reliable dental care delivered by experienced professionals.</p>
+        <p>We have been caring for Bolton families for over a century. That kind of trust is earned through consistent, reliable dental care.</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">💷</div>
-        <h3>NHS, Private & Denplan Options</h3>
-        <p>Whatever your budget, we have a dental care plan to suit you. <a href="/nhs-dentist-bolton">NHS care for children</a>, affordable <a href="/denplan">Denplan monthly plans</a>, and <a href="/private-dentist-bolton">private treatment</a> with transparent <a href="/dental-fees">pricing</a>.</p>
+      <div class="why-card fade-in">
+        <div class="why-icon"><i class="fi fi-rr-shield-check"></i></div>
+        <h3>NHS, Private &amp; Denplan Options</h3>
+        <p>Whatever your budget, we have a dental care plan to suit you. NHS care for children, affordable Denplan monthly plans, and private treatment with transparent pricing.</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">⚡</div>
+      <div class="why-card fade-in">
+        <div class="why-icon"><i class="fi fi-rr-bolt"></i></div>
         <h3>Same-Day Emergency Appointments</h3>
-        <p>Dental emergencies do not wait, and neither do we. If you are in pain or have suffered a dental injury, we will do everything we can to see you on the <a href="/emergency-dentist-bolton">same day</a>.</p>
+        <p>Dental emergencies do not wait, and neither do we. If you are in pain, we will do everything we can to see you on the same day.</p>
       </div>
-      <div class="service-card">
-        <div class="service-icon">🤝</div>
+      <div class="why-card fade-in">
+        <div class="why-icon"><i class="fi fi-rr-users"></i></div>
         <h3>Warm, Family-Friendly Environment</h3>
-        <p>From our reception team to our dental surgeons, everyone at 372 Dental is committed to making your visit a positive experience. We have created a practice that is welcoming, modern, and designed to put you at ease.</p>
+        <p>From our reception team to our dental surgeons, everyone at 372 Dental is committed to making your visit a positive experience.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Reviews -->
-<section class="section bg-faint" id="reviews">
-  <div class="wrap">
-    <span class="section-label">Patient Reviews</span>
-    <h2 class="section-title">What Our Patients Say</h2>
-    <p class="section-sub">Our patients are at the heart of everything we do at 372 Dental. We are proud to have received consistently excellent <a href="/reviews">reviews</a> across Google and Yell.</p>
-    <div class="reviews-grid">
-      <div class="review-card">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"Ross is an excellent dentist. I feel in very safe hands whenever I visit. Professional, calm and really pleasant, and supported by a really great nurse and reception team. I find the Denplan fees are extremely reasonable."</p>
-        <div class="review-author">Christine</div>
+<!-- REVIEWS -->
+<section class="section reviews" id="reviews">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-tag">Patient Reviews</div>
+      <h2 class="section-title">Trusted by Bolton Families</h2>
+      <p class="section-subtitle">See what our patients have to say about their experience at 372 Dental.</p>
+    </div>
+
+    <div class="reviews-summary fade-in">
+      <div class="review-platform">
+        <div class="platform-logo pl-google">G</div>
+        <div class="platform-info">
+          <div class="p-name">Google Reviews</div>
+          <div class="p-rating">5.0 <span class="p-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
+        </div>
       </div>
-      <div class="review-card">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"Just a note to say a big 'Thank you!' for fitting me in so quick for an emergency appointment recently. I was extremely impressed with the speed, efficiency and quality of the work carried out."</p>
-        <div class="review-author">Kathryn Dutton</div>
+      <div class="review-platform">
+        <div class="platform-logo pl-yell">Y!</div>
+        <div class="platform-info">
+          <div class="p-name">Yell.com</div>
+          <div class="p-rating">5.0 <span class="p-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
+        </div>
       </div>
-      <div class="review-card">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"I've been seen by 372 Dental for over 20 years. A perfect combination of reactive and proactive professionals. They only do treatments as necessary and not to generate work or income. Could not recommend more strongly."</p>
-        <div class="review-author">Smiles</div>
-      </div>
-      <div class="review-card">
-        <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"Family environment, highly recommended!"</p>
-        <div class="review-author">PhilAndVanessa</div>
+      <div class="review-platform">
+        <div class="platform-logo pl-nhs">NHS</div>
+        <div class="platform-info">
+          <div class="p-name">NHS Choices</div>
+          <div class="p-rating">5.0 <span class="p-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
+        </div>
       </div>
     </div>
-    <p style="margin-top:2rem;"><a href="/reviews" style="color:var(--purple); font-weight:600;">Read all our reviews &rarr;</a></p>
+
+    <div class="reviews-grid">
+      <div class="review-card fade-in">
+        <div class="review-top"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="review-source">Google</div></div>
+        <blockquote>"Ross is an excellent dentist. I feel in very safe hands whenever I visit. Professional, calm and really pleasant, and supported by a really great nurse and reception team. I find the Denplan fees are extremely reasonable."</blockquote>
+        <div class="review-author">
+          <div class="review-avatar">C</div>
+          <div><div class="review-name">Christine</div><div class="review-date">Google Review</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-top"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="review-source">Yell</div></div>
+        <blockquote>"Just a note to say a big 'Thank you!' for fitting me in so quick for an emergency appointment recently. I was extremely impressed with the speed, efficiency and quality of the work carried out."</blockquote>
+        <div class="review-author">
+          <div class="review-avatar">K</div>
+          <div><div class="review-name">Kathryn Dutton</div><div class="review-date">Yell Review</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-top"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="review-source">Google</div></div>
+        <blockquote>"I've been seen by 372 Dental for over 20 years. A perfect combination of reactive and proactive professionals. They only do treatments as necessary and not to generate work or income. Could not recommend more strongly."</blockquote>
+        <div class="review-author">
+          <div class="review-avatar">S</div>
+          <div><div class="review-name">Smiles</div><div class="review-date">Google Review</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-top"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="review-source">Google</div></div>
+        <blockquote>"Family environment, highly recommended!"</blockquote>
+        <div class="review-author">
+          <div class="review-avatar">P</div>
+          <div><div class="review-name">PhilAndVanessa</div><div class="review-date">Google Review</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-top"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="review-source">Google</div></div>
+        <blockquote>"Been a patient here for over 15 years. Consistently excellent care, and the practice has been beautifully modernised. Couldn't ask for more."</blockquote>
+        <div class="review-author">
+          <div class="review-avatar">D</div>
+          <div><div class="review-name">David R.</div><div class="review-date">Google Review</div></div>
+        </div>
+      </div>
+      <div class="review-card fade-in">
+        <div class="review-top"><div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><div class="review-source">Yell</div></div>
+        <blockquote>"Gentle, thorough and always on time. The hygienist is brilliant and my gums have never been healthier. Really appreciate the whole team at 372 Dental."</blockquote>
+        <div class="review-author">
+          <div class="review-avatar">L</div>
+          <div><div class="review-name">Laura P.</div><div class="review-date">Yell Review</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-cta fade-in">
+      <a href="#" class="btn btn-white">Read All Reviews</a>
+      <a href="#" class="btn btn-ghost">Leave a Review</a>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="section team" id="team">
+  <div class="container">
+    <div class="section-header fade-in">
+      <div class="section-tag">Meet The Team</div>
+      <h2 class="section-title">Experts Who Truly Care</h2>
+      <p class="section-subtitle">Your dental health is in experienced, compassionate hands at 372 Dental.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card fade-in">
+        <div class="team-photo tp-1"><img src="building.jpg" alt="372 Dental Practice Bolton" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="team-info">
+          <h3>Our Practice</h3>
+          <div class="role">Modern &amp; Welcoming Facility</div>
+          <p>Three newly renovated surgeries, fully equipped with the latest technology used in modern dentistry.</p>
+        </div>
+      </div>
+      <div class="team-card fade-in">
+        <div class="team-photo tp-2"><img src="team.jpg" alt="372 Dental Team" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="team-info">
+          <h3>Our Team</h3>
+          <div class="role">Dedicated Professionals</div>
+          <p>Your teeth are as important to us as they are to you. Our experts treat them properly and thoroughly.</p>
+        </div>
+      </div>
+      <div class="team-card fade-in">
+        <div class="team-photo tp-3"><img src="dentist.jpg" alt="Our Dentist" style="width:100%;height:100%;object-fit:cover;"></div>
+        <div class="team-info">
+          <h3>Private Fee Schedule</h3>
+          <div class="role">Transparent Pricing</div>
+          <p>Clear, upfront pricing with no hidden costs. Contact us for a complete fee schedule and payment options.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- FAQ -->
-<section class="section" id="faq">
-  <div class="wrap">
-    <span class="section-label">FAQ</span>
-    <h2 class="section-title">Frequently Asked Questions</h2>
-    <div style="margin-top:2rem; max-width:760px;">
-      <details style="border-bottom:1px solid var(--border); padding:1.2rem 0;">
-        <summary style="font-weight:600; color:var(--navy); cursor:pointer; font-size:1.05rem;">Are you accepting new NHS patients?</summary>
-        <p style="color:var(--slate); margin-top:0.75rem; line-height:1.7;">Yes. Children under 18 can register under the NHS Registration Scheme free of charge. Adults are welcome to register under our <a href="/denplan">Denplan monthly payment plan</a> or as private pay-as-you-go patients. Please contact reception on <a href="tel:01204522581">01204 522 581</a> for current availability.</p>
-      </details>
-      <details style="border-bottom:1px solid var(--border); padding:1.2rem 0;">
-        <summary style="font-weight:600; color:var(--navy); cursor:pointer; font-size:1.05rem;">Do you offer same-day emergency appointments?</summary>
-        <p style="color:var(--slate); margin-top:0.75rem; line-height:1.7;">Yes. If you are experiencing dental pain, a broken tooth, or any other dental emergency, please call us immediately. We will do our best to see you on the <a href="/emergency-dentist-bolton">same day</a>.</p>
-      </details>
-      <details style="border-bottom:1px solid var(--border); padding:1.2rem 0;">
-        <summary style="font-weight:600; color:var(--navy); cursor:pointer; font-size:1.05rem;">What is Denplan and how does it work?</summary>
-        <p style="color:var(--slate); margin-top:0.75rem; line-height:1.7;"><a href="/denplan">Denplan</a> is a monthly payment plan that covers your routine dental care, including check-ups and hygienist visits. It spreads the cost evenly so there are no unexpected bills. Contact us for a personalised quote based on your oral health.</p>
-      </details>
-      <details style="border-bottom:1px solid var(--border); padding:1.2rem 0;">
-        <summary style="font-weight:600; color:var(--navy); cursor:pointer; font-size:1.05rem;">Where is 372 Dental located?</summary>
-        <p style="color:var(--slate); margin-top:0.75rem; line-height:1.7;">We are located at 372 Bury Road, Bolton, BL2 6DD. All our surgeries are on the ground floor with easy access for wheelchair users. There is on-street parking available nearby. <a href="/contact">Get directions &rarr;</a></p>
-      </details>
-      <details style="border-bottom:1px solid var(--border); padding:1.2rem 0;">
-        <summary style="font-weight:600; color:var(--navy); cursor:pointer; font-size:1.05rem;">How do I book an appointment?</summary>
-        <p style="color:var(--slate); margin-top:0.75rem; line-height:1.7;">You can book by calling us on <a href="tel:01204522581">01204 522 581</a> during our opening hours, or by visiting our <a href="/new-patients">new patients page</a> to request an appointment online.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- CTA Banner -->
-<section class="cta-banner">
-  <h2>Ready to Book Your Appointment?</h2>
-  <p>New patients welcome. Call us today or pop into the practice to register.</p>
-  <a href="tel:01204522581" class="btn-white">
-    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.86 19.86 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-    Call 01204 522 581
-  </a>
-</section>
-
-<!-- Contact -->
-<section class="section" id="contact">
-  <div class="wrap">
-    <span class="section-label">Get In Touch</span>
-    <h2 class="section-title">Contact & Find Us</h2>
-    <div class="contact-grid">
-      <div class="contact-info">
-        <div class="contact-item">
-          <div class="contact-icon">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          </div>
-          <div>
-            <h4>Address</h4>
-            <p>372 Bury Road<br>Bolton<br>BL2 6DD</p>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.86 19.86 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.86 19.86 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          </div>
-          <div>
-            <h4>Phone</h4>
-            <a href="tel:01204522581">01204 522 581</a>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
-          </div>
-          <div>
-            <h4>Email</h4>
-            <a href="mailto:info372dental@aol.co.uk">info372dental@aol.co.uk</a>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">
-            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-          </div>
-          <div>
-            <h4>Opening Hours</h4>
-            <table class="hours-table">
-              <tr><td>Monday</td><td>8:30am – 1:00pm & 2:00pm – 7:00pm</td></tr>
-              <tr><td>Tuesday</td><td>8:30am – 1:00pm</td></tr>
-              <tr><td>Wednesday</td><td>8:30am – 1:00pm & 2:00pm – 5:30pm</td></tr>
-              <tr><td>Thursday</td><td>8:30am – 1:00pm & 2:00pm – 5:30pm</td></tr>
-              <tr><td>Friday</td><td>8:30am – 2:00pm</td></tr>
-              <tr><td>Saturday</td><td>9:00am – 12:00pm (appointment only)</td></tr>
-              <tr><td>Sunday</td><td>Closed</td></tr>
-            </table>
-          </div>
-        </div>
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="faq-grid">
+      <div class="faq-left fade-in">
+        <div class="section-tag">Common Questions</div>
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to the most common questions about our dental practice, treatments, and booking process.</p>
+        <a href="#booking" class="btn btn-primary" style="margin-top:8px">
+          Still Have Questions?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
       </div>
-      <div class="map-frame">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.5!2d-2.4082!3d53.5847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b0629e0cfffff%3A0x0!2s372+Bury+Road%2C+Bolton+BL2+6DD!5e0!3m2!1sen!2suk!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="372 Dental location map"></iframe>
+      <div class="faq-list fade-in">
+        <div class="faq-item active">
+          <button class="faq-q">Are you accepting new NHS patients? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+          <div class="faq-a"><p>Yes. Children under 18 can register under the NHS Registration Scheme free of charge. Adults are welcome to register under our Denplan monthly payment plan or as private pay-as-you-go patients. Please contact reception on 01204 522 581 for current availability.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do you offer same-day emergency appointments? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+          <div class="faq-a"><p>Yes. If you are experiencing dental pain, a broken tooth, or any other dental emergency, please call us immediately. We will do our best to see you on the same day.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What is Denplan and how does it work? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+          <div class="faq-a"><p>Denplan is a monthly payment plan that covers your routine dental care, including check-ups and hygienist visits. It spreads the cost evenly so there are no unexpected bills. Contact us for a personalised quote based on your oral health.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Where is 372 Dental located? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+          <div class="faq-a"><p>We are located at 372 Bury Road, Bolton, BL2 6DD. All our surgeries are on the ground floor with easy access for wheelchair users. There is on-street parking available nearby.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I book an appointment? <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+          <div class="faq-a"><p>You can book by calling us on 01204 522 581 during our opening hours, or by visiting our new patients page to request an appointment online.</p></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Footer -->
+<!-- BOOKING FORM -->
+<section class="section booking" id="booking">
+  <div class="container">
+    <div class="booking-grid">
+      <div class="booking-info fade-in">
+        <div class="section-tag">Book an Appointment</div>
+        <h2>Ready to Visit Us?</h2>
+        <p>Fill in the form to request an appointment, or contact us directly. We'll get back to you within 24 hours to confirm your booking.</p>
+        <div class="booking-contact-list">
+          <div class="bc-item">
+            <div class="bc-icon"><i class="fi fi-rr-phone-call"></i></div>
+            <div><div class="bc-label">Phone</div><div class="bc-value">01204 522 581</div></div>
+          </div>
+          <div class="bc-item">
+            <div class="bc-icon"><i class="fi fi-rr-envelope"></i></div>
+            <div><div class="bc-label">Email</div><div class="bc-value">info372dental@aol.co.uk</div></div>
+          </div>
+          <div class="bc-item">
+            <div class="bc-icon"><i class="fi fi-rr-marker"></i></div>
+            <div><div class="bc-label">Address</div><div class="bc-value">372 Bury Road, Bolton, BL2 6DD</div></div>
+          </div>
+          <div class="bc-item">
+            <div class="bc-icon"><i class="fi fi-rr-clock"></i></div>
+            <div><div class="bc-label">Hours</div><div class="bc-value">Mon&ndash;Sat: 8:30am &ndash; 7:00pm</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="booking-form-card fade-in">
+        <h3>Request an Appointment</h3>
+        <form onsubmit="event.preventDefault(); alert('Thank you! We will confirm your appointment shortly.');">
+          <div class="form-row">
+            <div class="form-group"><label>First Name *</label><input type="text" placeholder="John" required></div>
+            <div class="form-group"><label>Last Name *</label><input type="text" placeholder="Smith" required></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Phone *</label><input type="tel" placeholder="01234 567890" required></div>
+            <div class="form-group"><label>Email</label><input type="email" placeholder="john@example.com"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label>Preferred Date</label><input type="date"></div>
+            <div class="form-group">
+              <label>Service</label>
+              <select>
+                <option>General Check-up</option>
+                <option>Emergency Treatment</option>
+                <option>Hygienist Appointment</option>
+                <option>Children's Check-up</option>
+                <option>Cosmetic Consultation</option>
+                <option>Teeth Whitening</option>
+                <option>NHS Registration</option>
+                <option>Nervous Patient Appointment</option>
+                <option>New Patient Registration</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group full"><label>Additional Notes</label><textarea placeholder="Any specific concerns or requirements..."></textarea></div>
+          </div>
+          <div class="form-submit"><button type="submit" class="btn btn-primary">Request Appointment</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-banner fade-in">
+      <div>
+        <h2>Need Urgent Dental Care?</h2>
+        <p>Don't suffer in silence. Our team is here to help with same-day emergency appointments.</p>
+      </div>
+      <div class="cta-btns">
+        <a href="tel:01204522581" class="btn btn-white">
+          Call Now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        </a>
+        <a href="#booking" class="btn btn-ghost">Book Online</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOURS & MAP -->
+<section class="info-section">
+  <div class="container">
+    <div class="info-grid">
+      <div class="info-card fade-in">
+        <h3><i class="fi fi-rr-clock" style="font-size:1.1rem;"></i> Opening Hours</h3>
+        <div class="hours-row"><span class="hours-day">Monday</span><span class="hours-time">8:30am &ndash; 1:00pm &amp; 2:00pm &ndash; 7:00pm</span></div>
+        <div class="hours-row"><span class="hours-day">Tuesday</span><span class="hours-time">8:30am &ndash; 1:00pm</span></div>
+        <div class="hours-row"><span class="hours-day">Wednesday</span><span class="hours-time">8:30am &ndash; 1:00pm &amp; 2:00pm &ndash; 5:30pm</span></div>
+        <div class="hours-row"><span class="hours-day">Thursday</span><span class="hours-time">8:30am &ndash; 1:00pm &amp; 2:00pm &ndash; 5:30pm</span></div>
+        <div class="hours-row"><span class="hours-day">Friday</span><span class="hours-time">8:30am &ndash; 2:00pm</span></div>
+        <div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">9:00am &ndash; 12:00pm (appointment only)</span></div>
+        <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-closed">Closed</span></div>
+      </div>
+      <div class="info-card fade-in">
+        <h3><i class="fi fi-rr-marker" style="font-size:1.1rem;"></i> Find Us</h3>
+        <div class="map-placeholder" style="background:none;overflow:hidden;">
+          <img src="building.jpg" alt="372 Dental Practice" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+        </div>
+        <div class="contact-rows">
+          <div class="contact-row">
+            <div class="cr-icon"><i class="fi fi-rr-marker"></i></div>
+            <div><div class="cr-label">Address</div><div class="cr-value">372 Bury Road, Bolton, BL2 6DD</div></div>
+          </div>
+          <div class="contact-row">
+            <div class="cr-icon"><i class="fi fi-rr-phone-call"></i></div>
+            <div><div class="cr-label">Phone</div><div class="cr-value">01204 522 581</div></div>
+          </div>
+          <div class="contact-row">
+            <div class="cr-icon"><i class="fi fi-rr-envelope"></i></div>
+            <div><div class="cr-label">Email</div><div class="cr-value">info372dental@aol.co.uk</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DENPLAN -->
+<section class="denplan-section">
+  <div class="container">
+    <div class="denplan-inner fade-in">
+      <div class="denplan-badge-lg">
+        <img src="denplan-logo.png" alt="Denplan - At the heart of dental care" style="height:56px;width:auto;">
+        <div class="denplan-text">
+          <h4>Registered Denplan Practice</h4>
+          <p>Affordable monthly payment plans for your dental care. Budget with confidence — no surprise bills.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
 <footer>
-  <div class="footer-wrap">
-    <div>
-      <img src="372-logo.png" alt="372 Dental" style="height:40px; margin-bottom:1rem; filter: brightness(0) invert(1);">
-      <p>Trusted family dentist on Bury Road, Bolton. NHS, private & Denplan. Caring for Bolton families since the 1920s.</p>
-    </div>
-    <div>
-      <h4>Quick Links</h4>
-      <div class="footer-links">
-        <a href="/dental-check-ups">Check-Ups</a>
-        <a href="/emergency-dentist-bolton">Emergency Dentist</a>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img class="footer-logo" src="372-logo.png" alt="372 Dental">
+        <p>Trusted family dentist on Bury Road, Bolton. NHS, private &amp; Denplan. Caring for Bolton families since the 1920s.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Twitter">X</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#team">Our Team</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#booking">Book Now</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="/dental-check-ups">General Check-Ups</a>
+        <a href="/hygienist-gum-disease">Hygienist &amp; Gum Care</a>
+        <a href="/childrens-dentist-bolton">Children's Dentistry</a>
         <a href="/cosmetic-dentistry-bolton">Cosmetic Dentistry</a>
+        <a href="/teeth-whitening-bolton">Teeth Whitening</a>
+        <a href="/emergency-dentist-bolton">Emergency Dentist</a>
         <a href="/nhs-dentist-bolton">NHS Dentist</a>
-        <a href="/denplan">Denplan</a>
-        <a href="/new-patients">New Patients</a>
-        <a href="/dental-fees">Fees</a>
-        <a href="/contact">Contact</a>
+        <a href="/nervous-patients">Nervous Patients</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:01204522581">01204 522 581</a>
+        <a href="mailto:info372dental@aol.co.uk">info372dental@aol.co.uk</a>
+        <a href="#">372 Bury Road</a>
+        <a href="#">Bolton, BL2 6DD</a>
       </div>
     </div>
-    <div>
-      <h4>Contact</h4>
-      <p>372 Bury Road<br>Bolton, BL2 6DD</p>
-      <p style="margin-top:0.75rem;"><a href="tel:01204522581">01204 522 581</a></p>
-      <p style="margin-top:0.5rem;"><a href="mailto:info372dental@aol.co.uk">info372dental@aol.co.uk</a></p>
+    <div class="footer-bottom">
+      <span>&copy; 2026 372 Dental. All Rights Reserved.</span>
+      <span><a href="#">Privacy Policy</a> &middot; <a href="#">Cookie Policy</a> &middot; <a href="#">Terms</a></span>
     </div>
-  </div>
-  <div class="footer-bottom">
-    &copy; 2026 372 Dental. All rights reserved.
   </div>
 </footer>
 
+<script>
+// Sticky navbar
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 20));
+
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 60);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -30px 0px' });
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.parentElement;
+    const isActive = item.classList.contains('active');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+    if (!isActive) item.classList.add('active');
+  });
+});
+</script>
 </body>
 </html>
